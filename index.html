@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaishnavi's Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#" class="logo">Vaishnavi's Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, Myself</h3>
+      <h1>Vaishnavi Jadhav</h1>
+      <h3>And I'm a <span class="animated-role">Frontend Developer</span></h3>
+      <div class="social-media">
+        <a href="https://www.instagram.com/vai_shnavi.j1206/"><i class="fab fa-instagram"></i></a>
+        <a href="www.linkedin.com/in/vaishnavi-jadhav-559034296"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1-a1hzGWg8IvC7wzCEM0HrJJsJBN29wmC/view?usp=drivesdk" class="btn">Download Resume</a>
+    </div>
+    <div class="home-img">
+      <img src="./img/Photo.jpg" alt="Profile" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. I love creating responsive, user-friendly websites and continuously strive to improve my skills to build better digital experiences.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Frontend Developer</h3>
+        <p>HTML, CSS, JavaScript, Bootstrap, Angular</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>UI/UX Designer</h3>
+        <p>Figma</p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Database</h3>
+        <p>MySQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="skill-card">
+        <i class="fas fa-folder"></i>
+        <h3>Portfolio Website</h3>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://github.com/vaishnavijadhav/portfolio" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-heartbeat"></i>
+        <h3>MyHealthWay Appointment Booking</h3>
+        <p><strong>Technologies:</strong> HTML, CSS, JS </p>
+        <a href="https://github.com/aishnaviJadhav/MyHealthWay_Appointment_Booking?search=1" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-media">
+        <a href="https://www.instagram.com/vai_shnavi.j1206/"><i class="fab fa-instagram"></i></a>
+        <a href="www.linkedin.com/in/vaishnavi-jadhav-559034296"><i class="fab fa-linkedin"></i></a>
+      </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h3>Vaishnavi Jadhav</h3>
+      <p>Frontend Developer | UI/UX Enthusiast</p>
+      <div class="social-icons">
+        <a href="www.linkedin.com/in/vaishnavi-jadhav-559034296" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:jadhavvaishnavi1206@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-bottom-text">&copy; 2025 Vaishnavi Jadhav. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
